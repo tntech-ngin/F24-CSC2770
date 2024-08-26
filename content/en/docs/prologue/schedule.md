@@ -20,12 +20,10 @@ toc: true
 -
 | Assessment Type           | Weightage    | Additional Information              |
 |---------------------------|--------------|------------------------------------|
-| General Participation     | 5%           |                                    |
-| Quizzes                   | 35%          | Announced quizzes via iLearn.      |
-| EMATES                    | 15%          |                                    |
-| Assignments               | 15%          | Individual homework assignments.   |
-| Midterm Examination       | 15%          | Covers lectures/materials prior to the exam. |
-| Final Examination         | 15%          | Comprehensive.                     |
+| General Participation     | 10%           |                                    |
+| Homework                  | 30%          | Announced quizzes via iLearn.      |
+| Programming Assignments               | 30%          | |
+| Exams       | 30%          |  |
 
 **Class Schedule**
 -----------------------------------------

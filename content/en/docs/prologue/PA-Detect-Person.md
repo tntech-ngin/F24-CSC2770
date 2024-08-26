@@ -2,7 +2,7 @@
 title: "Program 3 - Detect a Person"
 sidebar: true # or false to display the sidebar
 sidebarlogo: fresh-white-alt # From (static/images/logo/)
-draft: False
+draft: true
 ---
 ___
 **Objectives**

@@ -3,7 +3,7 @@ title: "Program 1: Network Packet Handling"
 description: "Implement a client-server application to handle custom network packets with Python."
 date: 2023-01-12T11:09:01-06:00
 lastmod: 2023-01-12T11:09:01-06:00
-draft: false
+draft: true
 menu:
   docs:
     parent: "assignments"
