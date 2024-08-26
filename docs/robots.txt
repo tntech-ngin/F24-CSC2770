@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tntech-ngin.github.io/F24-CSC2770/sitemap.xml
