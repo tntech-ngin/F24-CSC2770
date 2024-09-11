@@ -37,7 +37,7 @@ toc: true
 [Slides: Bits and Ints](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/02-03-bits-ints.pdf) 
 [Slides: Floats](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/03-ints-floats.pdf)                                |                                                 |
 | **Week 3**   | Sept 9-13       | Memory Organization, Memory Management 
-[Slides: Memory Management](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/03-ints-floats.pdf)
+[Slides: Memory Management](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/04-memory-hierarchy.pdf)
 |
 | **Week 4**   | Sept 16-20      | CPU Architecture (Program Counter, Registers, Fetch-and-Execute Cycle, Multi-Core), Distributed Architectures, Process Management, Introduction to Operating Systems |
 | **Week 5**   | Sept 23-27      | Storage Architecture                                                                                                    |
