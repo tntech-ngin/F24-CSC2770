@@ -37,7 +37,9 @@ Here's the revised schedule with the updated topics and formatted using `|` as t
 | **Week 2**   | Sept 4-6        | Number Representation (Hex, Binary, 2’s Complement) (No class on Sept 2)
 [Slides: Bits and Ints](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/02-03-bits-ints.pdf) 
 [Slides: Floats](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/03-ints-floats.pdf)                                |                                                 |
-| **Week 3**   | Sept 9-13       | Memory Organization, Memory Management                                                                                 |
+| **Week 3**   | Sept 9-13       | Memory Organization, Memory Management 
+[Slides: Memory Management](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/03-ints-floats.pdf)
+|
 | **Week 4**   | Sept 16-20      | CPU Architecture (Program Counter, Registers, Fetch-and-Execute Cycle, Multi-Core), Distributed Architectures, Process Management, Introduction to Operating Systems |
 | **Week 5**   | Sept 23-27      | Storage Architecture                                                                                                    |
 | **Week 6**   | Sept 30 - Oct 4 | Networking Fundamentals, The Internet, Network Edge                                                                      |
