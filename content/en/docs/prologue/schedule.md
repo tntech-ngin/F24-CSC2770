@@ -28,7 +28,6 @@ toc: true
 **Class Schedule**
 -----------------------------------------
 
-Here's the revised schedule with the updated topics and formatted using `|` as the delimiter:
 
 | **Week**     | **Dates**       | **Topics**                                                                                                              |
 |--------------|-----------------|-------------------------------------------------------------------------------------------------------------------------|
