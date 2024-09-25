@@ -1,0 +1,6 @@
+  961  vi config/production/config.toml
+ 1016  vi layouts/index.html 
+ 1098  vi config/_default/params.toml 
+ 1101  vi production/config.toml 
+ 1109  vi content/en/_index.md 
+

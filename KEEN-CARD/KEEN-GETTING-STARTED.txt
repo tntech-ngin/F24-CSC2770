@@ -1,0 +1,70 @@
+Game: "Basic Interplanetary Systems Challenge"
+
+Objective:
+Two groups, each representing a colony on a different planet, must build a basic computer system and establish simple communication between the two colonies using sticky notes. The game focuses on fundamental hardware and software components, basic networking, and number representation.
+Setup
+
+    Materials Needed:
+        Sticky notes in different colors (each color represents a different category: hardware, software, networking, etc.)
+        Markers
+        Two large boards or poster papers (one for each group/planet)
+
+    Categories and Colors for Sticky Notes:
+        Hardware Components (Yellow Sticky Notes): CPU, RAM, Hard Drive, Power Supply, Monitor, Keyboard.
+        Software Components (Pink Sticky Notes): Operating System, Basic Application Software.
+        Networking Components (Green Sticky Notes): Simple Router, Network Cable.
+        Processes and Concepts (Blue Sticky Notes): Simple Instructions (like "LOAD", "STORE"), Basic Data Flow.
+        Number Representation (Orange Sticky Notes): Binary, Decimal, Hexadecimal.
+
+    Instructions:
+        Each group receives a set of sticky notes corresponding to different components and concepts.
+        Each group works on a separate board representing their planet, where they must build a basic computer system and establish a simple network.
+
+Gameplay
+Phase 1: Build the Planetary Computer System (15 minutes)
+
+    Activity: Each group begins by building the fundamental components of a computer system.
+        Task 1: Place sticky notes for basic hardware components (e.g., CPU, RAM, Hard Drive) and draw simple connections between them to show the internal structure.
+        Task 2: Add sticky notes for basic software components (e.g., Operating System, Basic Applications) on top of the hardware layer.
+        Task 3: Use blue sticky notes to indicate simple processes like data loading and storing operations.
+
+Phase 2: Establish Basic Planetary Network (10 minutes)
+
+    Activity: Groups create a basic network to connect their computer systems within their planet.
+        Task 4: Use green sticky notes to represent a simple router and network cables connecting multiple computer systems (represented by clusters of sticky notes).
+        Task 5: Indicate basic data flow arrows to show how information moves between systems.
+
+Phase 3: Simple Interplanetary Communication Setup (10 minutes)
+
+    Activity: The two planets must establish a basic communication link.
+        Task 6: Use a green sticky note to represent a "Space Cable" that connects the two planetary networks. This sticky note is placed between the boards of the two groups.
+        Task 7: Each group decides on a basic protocol for sending and receiving simple messages between the planets (e.g., using binary to represent "Hello" or "OK").
+
+Phase 4: Number Representation Challenge (10 minutes)
+
+    Activity: Introduce a simple data transmission challenge using number representations.
+        Task 8: Groups must convert a decimal number to binary and hexadecimal using orange sticky notes and "send" it to the other planet over the "Space Cable."
+        Task 9: The receiving group must decode the message back into decimal and confirm the received number.
+
+Phase 5: Simple Scenario Challenge (10 minutes)
+
+    Activity: Introduce a basic problem-solving scenario.
+        Scenario Example: A power failure occurs, and a critical component (like the CPU or RAM) must be "repaired" or replaced. Groups must rearrange their sticky notes to show an alternative setup using the remaining components.
+        Task 10: Each group quickly adapts their setup to maintain system functionality with the new constraints.
+
+Phase 6: Debrief and Scoring (5 minutes)
+
+    Activity: Groups present their final setups and explain their strategic choices, including how they solved the scenario-based challenge.
+    Scoring Criteria:
+        System Completeness: Correct placement and connection of all fundamental components.
+        Network Setup: Successful creation of a basic local and interplanetary network.
+        Problem Solving: Effective response to the scenario challenge.
+        Number Representation: Accurate conversion and transmission of numbers.
+
+Outcomes
+
+    Understanding of Basic Concepts: Students learn the fundamentals of computer architecture, basic networking, and simple number representation.
+    Collaborative Learning: Working in groups encourages collaboration and communication skills.
+    Application of Basic Knowledge: Applying basic concepts to a hands-on activity reinforces understanding and retention.
+    Engagement: The storyline and competition elements keep students engaged and motivated.
+
