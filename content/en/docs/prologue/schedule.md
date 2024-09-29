@@ -39,9 +39,17 @@ toc: true
 | **Week 3**   | Sept 9-13       | Memory Organization, Memory Management 
 [Slides: Memory Management](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/04-memory-hierarchy.pdf)
 |
-| **Week 4**   | Sept 16-20      | CPU Architecture (Program Counter, Registers, Fetch-and-Execute Cycle, Multi-Core), Distributed Architectures, Process Management, Introduction to Operating Systems |
-| **Week 5**   | Sept 23-27      | Storage Architecture                                                                                                    |
-| **Week 6**   | Sept 30 - Oct 4 | Networking Fundamentals, The Internet, Network Edge                                                                      |
+| **Week 4**   | Sept 16-20      | CPU Architecture (Program Counter, Registers, Fetch-and-Execute Cycle, Multi-Core), Distributed Architectures, Process Management, Introduction to Operating Systems 
+[Slides: CPU](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/05-machine-basics.pdf)
+
+[Slides: CPU 2](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/07-machine-procedures.pdf)
+|
+| **Week 5**   | Sept 23-27      | Storage Architecture                                                                                                   
+[Slides: Storage](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/08-storage.pdf)
+|
+| **Week 6**   | Sept 30 - Oct 4 | Networking Fundamentals, The Internet, Network Edge                                                                    
+[Slides: Network](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/09-network-basics.pdf)
+|
 | **Week 7**   | Oct 7-11        | System Security Fundamentals                                                                                            |
 | **Week 8**   | Oct 14-16       | Advanced Memory Organization: Virtual Memory, Caching                                                                    |
 | **Week 9**   | Oct 21-25       | Asynchrony, Concurrency, Parallelism, Locality                                                                           |
