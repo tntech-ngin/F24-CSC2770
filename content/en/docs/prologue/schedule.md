@@ -48,12 +48,14 @@ toc: true
 |
 | **Week 6**   | Sept 30 - Oct 4 | Networking Fundamentals, The Internet, Network Edge                                                                    
 [Slides: Network](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/09-network-basics.pdf)
+[Slides: Network Performance](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/10-network-performance.pdf)
+[Slides: Network Links](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/10-network-links.pdf)
 |
-| **Week 7**   | Oct 7-11        | System Security Fundamentals                                                                                            |
-| **Week 8**   | Oct 14-16       | Advanced Memory Organization: Virtual Memory, Caching                                                                    |
+| **Week 7**   | Oct 7-11        | Network Protocol Layers, Service Models, Addressing Schemes                                                                                            |
+| **Week 8**   | Oct 14-16       |    Advanced Networks                                                                 |
 | **Week 9**   | Oct 21-25       | Asynchrony, Concurrency, Parallelism, Locality                                                                           |
-| **Week 10**  | Oct 28 - Nov 1  | Advances in Storage: SSD, NVMe                                                                                          |
-| **Week 11**  | Nov 13-15       | Network Protocol Layers, Service Models, Addressing Schemes                                                             |
+| **Week 10**  | Oct 28 - Nov 1  |Advanced Memory Organization: Virtual Memory, Caching and Advances in Storage: SSD, NVMe                                                                                          |
+| **Week 11**  | Nov 13-15       |    System Security Fundamentals                                                          |
 | **Week 12**  | Nov 18-22       | Introduction to Parallelism, Performance Optimization                                                                    |
 | **Week 13**  | Nov 25-29       | TBD (No class on Nov 27-29)                                                                                             |
 | **Week 14**  | Dec 2-4         | TBD                                                                                                                     |
