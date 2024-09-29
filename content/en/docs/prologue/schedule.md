@@ -41,7 +41,6 @@ toc: true
 |
 | **Week 4**   | Sept 16-20      | CPU Architecture (Program Counter, Registers, Fetch-and-Execute Cycle, Multi-Core), Distributed Architectures, Process Management, Introduction to Operating Systems 
 [Slides: CPU](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/05-machine-basics.pdf)
-
 [Slides: CPU 2](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/07-machine-procedures.pdf)
 |
 | **Week 5**   | Sept 23-27      | Storage Architecture                                                                                                   
