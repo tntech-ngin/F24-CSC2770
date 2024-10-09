@@ -51,7 +51,10 @@ toc: true
 [Slides: Network Performance](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/10-network-performance.pdf)
 [Slides: Network Links](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/10-network-links.pdf)
 |
-| **Week 7**   | Oct 7-11        | Network Protocol Layers, Service Models, Addressing Schemes                                                                                            |
+| **Week 7**   | Oct 7-11        | Network Protocol Layers, Service Models, Addressing Schemes                   
+[Slides: Switching](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/switching.pdf)
+[Slides: Switching](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/ip.pdf)
+|
 | **Week 8**   | Oct 14-16       |    Advanced Networks                                                                 |
 | **Week 9**   | Oct 21-25       | Asynchrony, Concurrency, Parallelism, Locality                                                                           |
 | **Week 10**  | Oct 28 - Nov 1  |Advanced Memory Organization: Virtual Memory, Caching and Advances in Storage: SSD, NVMe                                                                                          |
