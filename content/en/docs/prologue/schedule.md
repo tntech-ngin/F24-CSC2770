@@ -59,8 +59,10 @@ toc: true
 [Slides: Transport Protocols](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/network-transport-layer.pdf)
 [Slides: DNS and HTTP](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/networked-applications.pdf)
 |
-| **Week 9**   | Oct 21-25       | Asynchrony, Concurrency, Parallelism, Locality                                                                           |
-| **Week 10**  | Oct 28 - Nov 1  |Advanced Memory Organization: Virtual Memory, Caching and Advances in Storage: SSD, NVMe                                                                                          |
+| **Week 9**   | Oct 21-25       | Socket Programming   
+[Slides: Socket Programming](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/12-network-programming.pdf)                                                          
+                                                                        |
+| **Week 10**  | Oct 28 - Nov 1  | Asynchrony, Concurrency, Parallelism, Locality, Advanced Memory Organization: Virtual Memory, Caching and Advances in Storage: SSD, NVMe                                                                                          |
 | **Week 11**  | Nov 13-15       |    System Security Fundamentals                                                          |
 | **Week 12**  | Nov 18-22       | Introduction to Parallelism, Performance Optimization                                                                    |
 | **Week 13**  | Nov 25-29       | TBD (No class on Nov 27-29)                                                                                             |
