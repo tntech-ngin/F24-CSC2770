@@ -396,13 +396,150 @@ Test 3 Passed: Memory allocated by skipping bad blocks.
 
 ---
 
-#### **Weeks 5-6: Dynamic Memory Manager with Limited Resources**
+#### **Weeks 5-6: Network Configuration with Limited Bandwidth**
 
-- **Problem**: The colony's mainframe is overloaded with emergency data logs due to a storm. The system needs a dynamic memory manager that can handle frequent allocation and deallocation without running out of memory.
-- **Task**: Develop a memory manager in C that allocates and deallocates memory dynamically, ensuring no memory leaks within a restricted memory limit (e.g., 512 bytes).
-- **Resource Constraints**: Limited memory space and frequent allocation/deallocation requests; the memory manager must efficiently manage memory and prevent fragmentation.
-- **Outcome**: Teams enhance their skills in dynamic memory management, learning to handle fluctuating data loads and prevent memory leaks in resource-constrained environments.
+- **Problem**: Communication between different sectors of the colony is disrupted due to a bandwidth limitation. Teams must optimize their network setup to ensure reliable and efficient communication with minimal bandwidth.
+- **Task**: Use socket programming in C to develop a client-server application that optimizes data transmission. 
+- **Constraints**: Limited packet sizes (150 bytes); Teams must use UDP; Implement efficient data transmission protocols to keep track of lost packets and retransmit.
+- **Outcome**: Teams learn to create data transmission methods under resource constraints, crucial for maintaining communication quality.
 
+```
+// server.c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <arpa/inet.h>
+
+#define PORT 8080
+#define MAX_PACKET_SIZE 150  // Limit packet size to 150 bytes
+
+// Function declarations
+int create_server_socket();
+void bind_server_socket(int server_fd, struct sockaddr_in *address);
+void listen_for_connections(int server_fd);
+int accept_client_connection(int server_fd, struct sockaddr_in *address);
+void handle_client(int client_socket);
+void close_server_socket(int server_fd);
+
+int main() {
+    int server_fd, client_socket;
+    struct sockaddr_in address;
+    
+    server_fd = create_server_socket();
+    bind_server_socket(server_fd, &address);
+    listen_for_connections(server_fd);
+
+    while (1) {
+        client_socket = accept_client_connection(server_fd, &address);
+        handle_client(client_socket);
+    }
+
+    close_server_socket(server_fd);
+    return 0;
+}
+
+// Function to create the server socket
+int create_server_socket() {
+    // TODO: Implement server socket creation
+    return 0;
+}
+
+// Function to bind the server socket to an address and port
+void bind_server_socket(int server_fd, struct sockaddr_in *address) {
+    // TODO: Implement binding the server socket to an address
+}
+
+// Function to listen for incoming connections
+void listen_for_connections(int server_fd) {
+    // TODO: Implement listening for incoming connections
+}
+
+// Function to accept client connections
+int accept_client_connection(int server_fd, struct sockaddr_in *address) {
+    // TODO: Implement accepting client connection
+    return 0;
+}
+
+// Function to handle communication with the client
+void handle_client(int client_socket) {
+    // TODO: Implement the logic to receive and send data to the client
+}
+
+// Function to close the server socket
+void close_server_socket(int server_fd) {
+    // TODO: Implement closing the server socket
+}
+
+```
+
+
+```
+// client.c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <arpa/inet.h>
+
+#define PORT 8080
+#define MAX_PACKET_SIZE 150  // Limit packet size to 150 bytes
+
+// Function declarations
+int create_client_socket();
+void connect_to_server(int client_socket, struct sockaddr_in *serv_addr);
+void send_message(int client_socket, const char *message);
+void close_client_socket(int client_socket);
+
+int main() {
+    int client_socket;
+    struct sockaddr_in serv_addr;
+    char *message = "This is an example of a very long message that will be broken into multiple 150-byte packets.";
+
+    client_socket = create_client_socket();
+    connect_to_server(client_socket, &serv_addr);
+    send_message(client_socket, message);
+    close_client_socket(client_socket);
+
+    return 0;
+}
+
+// Function to create the client socket
+int create_client_socket() {
+    // TODO: Implement client socket creation
+    return 0;
+}
+
+// Function to connect the client to the server
+void connect_to_server(int client_socket, struct sockaddr_in *serv_addr) {
+    // TODO: Implement connecting the client to the server
+}
+
+// Function to send an arbitrarily long message to the server
+void send_message(int client_socket, const char *message) {
+    // TODO: Implement message sending in chunks of 150 bytes
+}
+
+// Function to close the client socket
+void close_client_socket(int client_socket) {
+    // TODO: Implement closing the client socket
+}
+
+```
+
+```
+Rubric:
+1. **Using UDP (10 points)**: Both client and server correctly implement UDP (SOCK_DGRAM).
+2. **Fragmenting on the Client (10 points)**: Client properly splits messages longer than 150 bytes into 150-byte packets.
+3. **Reassembling on the Server (10 points)**: Server accurately reassembles fragmented packets received from the client.
+4. **Oversized Packets (10 points)**: Oversized packets are correctly handled, either rejected or not sent by the client.
+5. **Handling Very Large Message (10 points)**: Very large messages are handled properly, fragmented, transmitted, and reassembled without issues.
+6. **Handling Empty Message (10 points)**: Empty messages are handled gracefully without causing errors in transmission.
+7. **Partial Packet Handling (10 points)**: The final partial packet (less than 150 bytes) is handled correctly by both client and server.
+8. **Server Binding (10 points)**: Server successfully binds to the specified address and port.
+9. **Client Connect (10 points)**: Client successfully establishes a connection to the server using UDP.
+10. **Server Accept (10 points)**: Server correctly accepts and handles incoming connections from the client.
+```
 ---
 
 #### **Weeks 7-8: CPU Cycle Optimization with Limited Processing Power**
@@ -423,14 +560,14 @@ Test 3 Passed: Memory allocated by skipping bad blocks.
 
 ---
 
-#### **Weeks 11-12: Network Configuration with Limited Bandwidth**
 
-- **Problem**: Communication between different sectors of the colony is disrupted due to a bandwidth limitation. Teams must reconfigure their network setup to ensure reliable and efficient communication with minimal bandwidth.
-- **Task**: Use socket programming in C to develop a client-server application that optimizes data transmission over a constrained network (e.g., 1 Mbps).
-- **Resource Constraints**: Limited network bandwidth; teams must implement efficient data transmission protocols to minimize delays and maximize throughput.
-- **Outcome**: Teams learn to optimize network configurations and data transmission methods under bandwidth constraints, crucial for maintaining communication quality.
+#### **Weeks 11-12: Dynamic Memory Manager with Limited Resources**
 
----
+- **Problem**: The colony's mainframe is overloaded with emergency data logs due to a storm. The system needs a dynamic memory manager that can handle frequent allocation and deallocation without running out of memory.
+- **Task**: Develop a memory manager in C that allocates and deallocates memory dynamically, ensuring no memory leaks within a restricted memory limit (e.g., 512 bytes).
+- **Resource Constraints**: Limited memory space and frequent allocation/deallocation requests; the memory manager must efficiently manage memory and prevent fragmentation.
+- **Outcome**: Teams enhance their skills in dynamic memory management, learning to handle fluctuating data loads and prevent memory leaks in resource-constrained environments.
+
 
 #### **Weeks 13-14: Secure Communication with Limited Resources**
 
