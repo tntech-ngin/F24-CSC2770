@@ -417,7 +417,6 @@ Test 3 Passed: Memory allocated by skipping bad blocks.
 // Function declarations
 int create_server_socket();
 void bind_server_socket(int server_fd, struct sockaddr_in *address);
-void listen_for_connections(int server_fd);
 int accept_client_connection(int server_fd, struct sockaddr_in *address);
 void handle_client(int client_socket);
 void close_server_socket(int server_fd);
@@ -450,14 +449,10 @@ void bind_server_socket(int server_fd, struct sockaddr_in *address) {
     // TODO: Implement binding the server socket to an address
 }
 
-// Function to listen for incoming connections
-void listen_for_connections(int server_fd) {
-    // TODO: Implement listening for incoming connections
-}
-
 // Function to accept client connections
 int accept_client_connection(int server_fd, struct sockaddr_in *address) {
     // TODO: Implement accepting client connection
+    // You this is where you keep state related to the client. This might be useful for retransmission.
     return 0;
 }
 
@@ -513,6 +508,8 @@ int create_client_socket() {
 // Function to connect the client to the server
 void connect_to_server(int client_socket, struct sockaddr_in *serv_addr) {
     // TODO: Implement connecting the client to the server
+    // You can emulate TCP behavior here. For now simply print which server you are connecting to.
+    // More advanced clients will need to keep track of which server they are connecting to, you can ignore this for now.
 }
 
 // Function to send an arbitrarily long message to the server
@@ -537,8 +534,8 @@ Rubric:
 6. **Handling Empty Message (10 points)**: Empty messages are handled gracefully without causing errors in transmission.
 7. **Partial Packet Handling (10 points)**: The final partial packet (less than 150 bytes) is handled correctly by both client and server.
 8. **Server Binding (10 points)**: Server successfully binds to the specified address and port.
-9. **Client Connect (10 points)**: Client successfully establishes a connection to the server using UDP.
-10. **Server Accept (10 points)**: Server correctly accepts and handles incoming connections from the client.
+9. **Server Accept (10 points)**: Server correctly accepts and handles incoming connections from the client.
+10. **General code formatting and logging (10 points)**
 ```
 ---
 
