@@ -63,7 +63,8 @@ toc: true
 [Slides: Socket Programming](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/12-network-programming.pdf)                                                          
                                                                         |
 | **Week 10**  | Oct 28 - Nov 1  | Asynchrony, Concurrency, Parallelism, Locality, Advanced Memory Organization: Virtual Memory, Caching and Advances in Storage: SSD, NVMe    
-[Caching](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/12-cache-memories.pptx)                                                          
+[Caching](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/12-cache-memories.pptx) 
+[Virtual Memory](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/13-vm-concepts.pdf)                                                          
                                                                                       |
 | **Week 11**  | Nov 13-15       |    System Security Fundamentals                                                          |
 | **Week 12**  | Nov 18-22       | Introduction to Parallelism, Performance Optimization                                                                    |
