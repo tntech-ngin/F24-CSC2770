@@ -69,7 +69,9 @@ toc: true
 | **Week 11**  | Nov 13-15       |    System Security Fundamentals               
 [System Security](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/18-system-security.pdf)     
 |
-| **Week 12**  | Nov 18-22       | Introduction to Parallelism, Performance Optimization                                                                    |
+| **Week 12**  | Nov 18-22       | Introduction to Parallelism, Performance Optimization  
+[Parallelism, Threads](https://tntech-ngin.github.io/F24-CSC2770/lectures_source/lectures/modified/concprog.pdf)     
+                                                                  |
 | **Week 13**  | Nov 25-29       | TBD (No class on Nov 27-29)                                                                                             |
 | **Week 14**  | Dec 2-4         | TBD                                                                                                                     |
 | **Final Exam** | Dec 9         | Comprehensive Final Exam                                                                                                |
